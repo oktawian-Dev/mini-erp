@@ -42,9 +42,9 @@ w dokumentacji (learn.microsoft.com). Cel to nauczyć się szukać, a nie zapami
 
 ### Zadanie 0.3: Uruchom Claude Code w repo
 
-- [ ] Uruchom Claude Code w katalogu repo
-- [ ] Poproś o przeczytanie `CLAUDE.md` i podsumowanie, jak rozumie swoją rolę
-- [ ] Zapisz w dzienniku nauki, jak wygląda Wasza współpraca (czy trzyma się zasad mentora?)
+- [x] Uruchom Claude Code w katalogu repo
+- [x] Poproś o przeczytanie `CLAUDE.md` i podsumowanie, jak rozumie swoją rolę
+- [x] Zapisz w dzienniku nauki, jak wygląda Wasza współpraca (czy trzyma się zasad mentora?)
 
 ---
 
@@ -55,10 +55,10 @@ Do każdego bloku napisz małe programy, **bez kopiowania gotowców**.
 
 ### Blok A: Podstawy języka
 
-- [ ] Typy, zmienne, `var`, `string`, `decimal` vs `double` (policz `0.1 + 0.2` w obu)
-- [ ] Instrukcje warunkowe, pętle, `switch` (także wyrażenie `switch`)
+- [x] Typy, zmienne, `var`, `string`, `decimal` vs `double` (policz `0.1 + 0.2` w obu)
+- [x] Instrukcje warunkowe, pętle, `switch` (także wyrażenie `switch`)
 - [ ] Metody: parametry, zwracanie wartości, parametry opcjonalne, `out`
-- [ ] **Ćwiczenie:** kalkulator VAT: dla ceny netto i stawki policz brutto, wypisz kwoty z dwoma miejscami
+- [x] **Ćwiczenie:** kalkulator VAT: dla ceny netto i stawki policz brutto, wypisz kwoty z dwoma miejscami
 
 ### Blok B: Klasy i obiektowość
 
