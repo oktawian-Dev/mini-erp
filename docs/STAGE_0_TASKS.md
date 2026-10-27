@@ -37,7 +37,7 @@ w dokumentacji (learn.microsoft.com). Cel to nauczyć się szukać, a nie zapami
 - [x] Dodaj `.gitattributes` z linią `* text=auto` oraz `.editorconfig` (`dotnet new editorconfig`)
 - [x] Dodaj `.env.example` (bez prawdziwych haseł) i wpis `.env` w `.gitignore`
 - [x] Pierwszy commit: `docs: add project vision, roadmap and CLAUDE.md`
-- [ ] **Test dwóch maszyn:** sklonuj repo na drugiej maszynie, wykonaj `dotnet build`. Jeśli działa
+- [x] **Test dwóch maszyn:** sklonuj repo na drugiej maszynie, wykonaj `dotnet build`. Jeśli działa
       bez dodatkowych kroków, repo jest poprawnie przenośne
 
 ### Zadanie 0.3: Uruchom Claude Code w repo
