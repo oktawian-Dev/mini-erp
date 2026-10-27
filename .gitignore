@@ -3,6 +3,9 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Local scratch project for C# exercises (not part of the ERP)
+CSharpPlayground/
+
 # dotenv files
 .env
 
