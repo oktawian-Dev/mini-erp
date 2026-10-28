@@ -57,17 +57,17 @@ Do każdego bloku napisz małe programy, **bez kopiowania gotowców**.
 
 - [x] Typy, zmienne, `var`, `string`, `decimal` vs `double` (policz `0.1 + 0.2` w obu)
 - [x] Instrukcje warunkowe, pętle, `switch` (także wyrażenie `switch`)
-- [ ] Metody: parametry, zwracanie wartości, parametry opcjonalne, `out`
+- [x] Metody: parametry, zwracanie wartości, parametry opcjonalne, `out`
 - [x] **Ćwiczenie:** kalkulator VAT: dla ceny netto i stawki policz brutto, wypisz kwoty z dwoma miejscami
 
 ### Blok B: Klasy i obiektowość
 
-- [ ] Klasa, właściwości, konstruktor, modyfikatory dostępu
-- [ ] Enkapsulacja: prywatne pole + metoda zmieniająca stan z walidacją
+- [x] Klasa, właściwości, konstruktor, modyfikatory dostępu
+- [x] Enkapsulacja: prywatne pole + metoda zmieniająca stan z walidacją
 - [ ] Dziedziczenie, `abstract`, `virtual`/`override`
 - [ ] Interfejsy i polimorfizm
 - [ ] `record` vs `class`, `enum`
-- [ ] **Ćwiczenie:** klasa `Product` (nazwa, cena, ilość) z metodami `AddStock(int)` i `RemoveStock(int)`, która rzuca wyjątek, gdy brakuje towaru
+- [x] **Ćwiczenie:** klasa `Product` (nazwa, cena, ilość) z metodami `AddStock(int)` i `RemoveStock(int)`, która rzuca wyjątek, gdy brakuje towaru
 
 ### Blok C: Kolekcje i LINQ
 
