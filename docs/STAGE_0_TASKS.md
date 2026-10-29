@@ -65,7 +65,7 @@ Do każdego bloku napisz małe programy, **bez kopiowania gotowców**.
 - [x] Klasa, właściwości, konstruktor, modyfikatory dostępu
 - [x] Enkapsulacja: prywatne pole + metoda zmieniająca stan z walidacją
 - [x] Dziedziczenie, `abstract`, `virtual`/`override`
-- [ ] Interfejsy i polimorfizm
+- [x] Interfejsy i polimorfizm
 - [ ] `record` vs `class`, `enum`
 - [x] **Ćwiczenie:** klasa `Product` (nazwa, cena, ilość) z metodami `AddStock(int)` i `RemoveStock(int)`, która rzuca wyjątek, gdy brakuje towaru
 
