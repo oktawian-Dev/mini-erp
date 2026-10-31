@@ -15,9 +15,9 @@ w dokumentacji (learn.microsoft.com). Cel to nauczyć się szukać, a nie zapami
 ### Zadanie 0.1: Instalacja narzędzi
 
 - [x] .NET SDK (najnowsza LTS). Sprawdź: `dotnet --version`
-      **Powtórz całość na obu maszynach (macOS i Windows):**
+  **Powtórz całość na obu maszynach (macOS i Windows):**
 - [x] IDE: JetBrains Rider (sprawdź aktualne warunki licencji: darmowa opcja do użytku niekomercyjnego
-      oraz licencje studenckie). Włącz Settings Sync
+  oraz licencje studenckie). Włącz Settings Sync
 - [x] Git (`git --version`), konto GitHub
 - [x] Docker Desktop (`docker --version`)
 - [x] Narzędzie EF: `dotnet tool install --global dotnet-ef`
@@ -38,7 +38,7 @@ w dokumentacji (learn.microsoft.com). Cel to nauczyć się szukać, a nie zapami
 - [x] Dodaj `.env.example` (bez prawdziwych haseł) i wpis `.env` w `.gitignore`
 - [x] Pierwszy commit: `docs: add project vision, roadmap and CLAUDE.md`
 - [x] **Test dwóch maszyn:** sklonuj repo na drugiej maszynie, wykonaj `dotnet build`. Jeśli działa
-      bez dodatkowych kroków, repo jest poprawnie przenośne
+  bez dodatkowych kroków, repo jest poprawnie przenośne
 
 ### Zadanie 0.3: Uruchom Claude Code w repo
 
@@ -66,25 +66,28 @@ Do każdego bloku napisz małe programy, **bez kopiowania gotowców**.
 - [x] Enkapsulacja: prywatne pole + metoda zmieniająca stan z walidacją
 - [x] Dziedziczenie, `abstract`, `virtual`/`override`
 - [x] Interfejsy i polimorfizm
-- [ ] `record` vs `class`, `enum`
-- [x] **Ćwiczenie:** klasa `Product` (nazwa, cena, ilość) z metodami `AddStock(int)` i `RemoveStock(int)`, która rzuca wyjątek, gdy brakuje towaru
+- [x] `record` vs `class`, `enum`
+- [x] **Ćwiczenie:** klasa `Product` (nazwa, cena, ilość) z metodami `AddStock(int)` i `RemoveStock(int)`, która rzuca
+  wyjątek, gdy brakuje towaru
 
 ### Blok C: Kolekcje i LINQ
 
-- [ ] `List<T>`, `Dictionary<K,V>`, `HashSet<T>`
-- [ ] LINQ: `Where`, `Select`, `OrderBy`, `GroupBy`, `Sum`, `Any`, `FirstOrDefault`
-- [ ] **Ćwiczenie:** lista 20 towarów w pamięci. Wypisz: najdroższe 3, sumę wartości magazynu, towary pogrupowane według kategorii
+- [x] `List<T>`, `Dictionary<K,V>`, `HashSet<T>`
+- [x] LINQ: `Where`, `Select`, `OrderBy`, `GroupBy`, `Sum`, `Any`, `FirstOrDefault`
+- [x] **Ćwiczenie:** lista 20 towarów w pamięci. Wypisz: najdroższe 3, sumę wartości magazynu, towary pogrupowane według
+  kategorii
 
 ### Blok D: Nowoczesny C#
 
-- [ ] Nullable reference types (`string?`), operatory `?.`, `??`
-- [ ] Wyjątki: `try/catch/finally`, własny typ wyjątku
+- [x] Nullable reference types (`string?`), operatory `?.`, `??`
+- [x] Wyjątki: `try/catch/finally`, własny typ wyjątku
 - [ ] `async` / `await` i `Task` (symulacja: `await Task.Delay(1000)`)
 - [ ] Dependency Injection: ręczny przykład (klasa przyjmuje interfejs w konstruktorze)
 
 ### Blok E: Mini-zadanie spajające
 
-- [ ] **Magazyn w pamięci:** klasa `Warehouse` z listą ruchów (`+10`, `-3`...), metodą `GetStock()` jako sumą ruchów oraz odrzucaniem ruchów prowadzących do ujemnego stanu. To mikro-wersja Etapu 2!
+- [ ] **Magazyn w pamięci:** klasa `Warehouse` z listą ruchów (`+10`, `-3`...), metodą `GetStock()` jako sumą ruchów
+  oraz odrzucaniem ruchów prowadzących do ujemnego stanu. To mikro-wersja Etapu 2!
 - [ ] Zapisz 3 testy jednostkowe (xUnit) dla tej klasy
 
 **Punkt kontrolny:** wyjaśnij Claude Code własnymi słowami różnicę między klasą a interfejsem
@@ -113,15 +116,18 @@ dotnet new xunit -n Erp.Api.Tests -o tests/Erp.Api.Tests
 ### Zadanie 0.5: Pierwszy endpoint
 
 - [ ] `GET /health` zwraca `{ "status": "ok" }`
-- [ ] Uruchom API i otwórz je w przeglądarce/Swaggerze (sprawdź w dokumentacji, jak włączyć OpenAPI w aktualnym szablonie)
+- [ ] Uruchom API i otwórz je w przeglądarce/Swaggerze (sprawdź w dokumentacji, jak włączyć OpenAPI w aktualnym
+  szablonie)
 - [ ] Test integracyjny w `Erp.Api.Tests`, który woła `/health` (sprawdź `WebApplicationFactory`)
 
 ### Zadanie 0.6: Baza danych w Dockerze
 
-- [ ] Plik `docker-compose.yml` z PostgreSQL (obraz `postgres`, wolumen na dane, hasło w `.env`, który jest w `.gitignore`)
+- [ ] Plik `docker-compose.yml` z PostgreSQL (obraz `postgres`, wolumen na dane, hasło w `.env`, który jest w
+  `.gitignore`)
 - [ ] `docker compose up -d`, sprawdź, że kontener działa
 - [ ] Połączenie przez narzędzie do baz (Rider ma wbudowane okno Database, możesz też użyć DBeaver)
-- [ ] Dodaj do `Erp.Data` pakiet `Npgsql.EntityFrameworkCore.PostgreSQL` i pusty `ErpDbContext` i skonfiguruj connection string przez `appsettings` / user secrets
+- [ ] Dodaj do `Erp.Data` pakiet `Npgsql.EntityFrameworkCore.PostgreSQL` i pusty `ErpDbContext` i skonfiguruj connection
+  string przez `appsettings` / user secrets
 - [ ] Utwórz pustą migrację i uruchom `dotnet ef database update`
 
 ### Zadanie 0.7: Zamknięcie etapu
@@ -144,5 +150,5 @@ dotnet new xunit -n Erp.Api.Tests -o tests/Erp.Api.Tests
 
 ## Jeśli utkniesz
 
-Opisz Claude Code: (1) co chciałeś osiągnąć, (2) co zrobiłeś, (3) co dokładnie się stało
-(komunikat błędu w całości). Dobrze sformułowane pytanie to umiejętność, którą też ćwiczysz.
+Opisz Claude Code: (1) co chciałeś osiągnąć, (2) co zrobiłeś, (3) co dokładnie się stało (komunikat błędu w całości).
+Dobrze sformułowane pytanie to umiejętność, którą też ćwiczysz.
