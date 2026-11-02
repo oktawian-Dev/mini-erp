@@ -81,14 +81,14 @@ Do każdego bloku napisz małe programy, **bez kopiowania gotowców**.
 
 - [x] Nullable reference types (`string?`), operatory `?.`, `??`
 - [x] Wyjątki: `try/catch/finally`, własny typ wyjątku
-- [ ] `async` / `await` i `Task` (symulacja: `await Task.Delay(1000)`)
-- [ ] Dependency Injection: ręczny przykład (klasa przyjmuje interfejs w konstruktorze)
+- [x] `async` / `await` i `Task` (symulacja: `await Task.Delay(1000)`)
+- [x] Dependency Injection: ręczny przykład (klasa przyjmuje interfejs w konstruktorze)
 
 ### Blok E: Mini-zadanie spajające
 
-- [ ] **Magazyn w pamięci:** klasa `Warehouse` z listą ruchów (`+10`, `-3`...), metodą `GetStock()` jako sumą ruchów
+- [x] **Magazyn w pamięci:** klasa `Warehouse` z listą ruchów (`+10`, `-3`...), metodą `GetStock()` jako sumą ruchów
   oraz odrzucaniem ruchów prowadzących do ujemnego stanu. To mikro-wersja Etapu 2!
-- [ ] Zapisz 3 testy jednostkowe (xUnit) dla tej klasy
+- [x] Zapisz 3 testy jednostkowe (xUnit) dla tej klasy
 
 **Punkt kontrolny:** wyjaśnij Claude Code własnymi słowami różnicę między klasą a interfejsem
 i dlaczego używamy `decimal` do pieniędzy. Jeśli utkniesz, wróć do bloku.
