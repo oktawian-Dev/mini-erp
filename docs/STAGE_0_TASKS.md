@@ -108,10 +108,10 @@ dotnet new xunit -n Erp.Core.Tests -o tests/Erp.Core.Tests
 dotnet new xunit -n Erp.Api.Tests -o tests/Erp.Api.Tests
 ```
 
-- [ ] Dodaj wszystkie projekty do solution (`dotnet sln add ...`)
-- [ ] Ustaw referencje: `Api → Core, Data`; `Data → Core`; testy → odpowiednie projekty
-- [ ] Włącz `<Nullable>enable</Nullable>` i `<TreatWarningsAsErrors>` (omów z Claude Code, co to daje)
-- [ ] Zapytaj Claude Code: **dlaczego `Core` nie powinno zależeć od `Data`?** Zapisz odpowiedź w dzienniku
+- [x] Dodaj wszystkie projekty do solution (`dotnet sln add ...`)
+- [x] Ustaw referencje: `Api → Core, Data`; `Data → Core`; testy → odpowiednie projekty
+- [x] Włącz `<Nullable>enable</Nullable>` i `<TreatWarningsAsErrors>` (omów z Claude Code, co to daje)
+- [x] Zapytaj Claude Code: **dlaczego `Core` nie powinno zależeć od `Data`?** Zapisz odpowiedź w dzienniku
 
 ### Zadanie 0.5: Pierwszy endpoint
 
