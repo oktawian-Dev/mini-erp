@@ -115,10 +115,10 @@ dotnet new xunit -n Erp.Api.Tests -o tests/Erp.Api.Tests
 
 ### Zadanie 0.5: Pierwszy endpoint
 
-- [ ] `GET /health` zwraca `{ "status": "ok" }`
-- [ ] Uruchom API i otwórz je w przeglądarce/Swaggerze (sprawdź w dokumentacji, jak włączyć OpenAPI w aktualnym
+- [x] `GET /health` zwraca `{ "status": "ok" }`
+- [x] Uruchom API i otwórz je w przeglądarce/Swaggerze (sprawdź w dokumentacji, jak włączyć OpenAPI w aktualnym
   szablonie)
-- [ ] Test integracyjny w `Erp.Api.Tests`, który woła `/health` (sprawdź `WebApplicationFactory`)
+- [x] Test integracyjny w `Erp.Api.Tests`, który woła `/health` (sprawdź `WebApplicationFactory`)
 
 ### Zadanie 0.6: Baza danych w Dockerze
 
